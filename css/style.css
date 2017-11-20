@@ -1,0 +1,231 @@
+/*==== maine ====*/
+
+.maine {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1024px;
+    height: 100%;
+    cursor: default;
+    margin: auto auto;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.row-map {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.row-map h1 {
+    display: block;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    color: #263555;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+.map {
+    display: flex;
+    margin-top: 40px;
+}
+
+iframe {
+    width: 450px;
+    height: 450px;
+}
+
+a {
+    text-decoration: none;
+    color: #263555;
+}
+
+.row-contacts {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 215px 0 0 10px;
+    color: #666565;
+    font-family: "Arial Regular";
+    font-size: 14px;
+}
+table {
+    width: 240px;
+}
+
+td {
+    height: 14px;
+}
+
+.row-contacts span {
+    color: #fa7e7e;
+    font-family: "Arial Regular";
+    font-size: 14px;
+}
+
+.phones-row1 {
+    display: flex;
+    flex-direction: column;
+    height: 15px;
+    margin: 210px 0 0 20px;
+
+}
+
+.phones-row2 {
+    display: flex;
+    flex-direction: column;
+    height: 15px;
+    margin: 0 0 0 20px;
+}
+
+.row-contacts-form {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 730px;
+}
+
+.form-container {
+    display: flex;
+    width: 210px;
+    height: 620px;
+    background-color: #fff;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.form-container h2 {
+    display: block;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    color: #263555;
+    text-transform: uppercase;
+    margin-left: 5px;
+
+}
+
+label {
+    display: inline-block;
+}
+
+input {
+    display: inline-block;
+    border-style: none;
+    border: solid 1px #d4d0d0;
+    width: 200px;
+    height: 30px;
+    margin: 30px 0 0 5px;
+    background-color: #fcfafa;
+    text-transform: uppercase;
+    text-indent: 5px;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #263555;
+}
+
+textarea {
+    display: flex;
+    width: 200px;
+    height: 230px;
+    background-color: #fcfafa;
+    border-style: none;
+    border: solid 1px #d4d0d0;
+    resize: none;
+    text-transform: uppercase;
+    text-indent: 5px;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #263555;
+    margin: 30px 0 0 5px;
+}
+
+.send {
+    display: inline-block;
+    border-style: none;
+    width: 50px;
+    height: 30px;
+    text-transform: uppercase;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #263555;
+
+}
+
+input[type="submit"] {
+    display: block;
+    width: 80px;
+    height: 30px;
+    background-color: #fcfafa;
+    text-transform: uppercase;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #263555;
+    float: right;
+    border-radius: 5px;
+    border: solid 1px #d4d0d0;
+}
+
+input[type="reset"] {
+    display: block;
+    width: 80px;
+    height: 30px;
+    margin: 30px 10px 0 0;
+    background-color: #fcfafa;
+    text-transform: uppercase;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #263555;
+    float: right;
+    border-radius: 5px;
+    border: solid 1px #d4d0d0;
+}
+
+input[type="reset"]:hover {
+    border: solid 2px #d4d0d0;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    border: solid 2px #d4d0d0;
+    cursor: pointer;
+}
+
+.scrollTopBtn {
+    width: 1024px;
+    height: 50px;
+}
+
+.scrollTop {
+    display: block;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background: #38afe5;
+    border-radius: 20px;
+    margin-top: 120px;
+    margin-left: 950px;
+    top: 550px;
+    right: 440px;
+}
+
+.scrollTop a {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 8px;
+    transform: rotate(-135deg);
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.scrollTop a:hover {
+    padding: 9px;
+}
